@@ -1,0 +1,49 @@
+.nav-items {
+  z-index: 1;
+  opacity: unset;
+}
+.nav-items a {
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+}
+.hambg {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+  .nav-items {
+    align-items: center;
+    padding-top: 40px;
+    width: 200px;
+    height: 100%;
+    display: none;
+    top: 0;
+    right: 0;
+  }
+  .hambg {
+    top: 10px;
+    right: 10px;
+    display: flex;
+    position: fixed;
+    z-index: 20;
+    color: black;
+  }
+  .hambg.show{
+    color: whitesmoke;
+  }
+  .nav-items.show {
+    z-index: 1;
+    position: fixed;
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.8s ease-in-out;
+  }
+  .nav-items a {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    color: whitesmoke;
+  }
+}

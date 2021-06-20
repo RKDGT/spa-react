@@ -1,0 +1,113 @@
+.download-our-app {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.download-our-app-links {
+  display: flex;
+}
+.download-our-app-main-content {
+  padding-left: 40px;
+  padding-top: 80px;
+  width: 670px;
+}
+
+.download-our-app-imj {
+  width: 715px;
+}
+.download-our-app-links img {
+  width: 200px;
+  height: 60px;
+  display: flex;
+}
+.our-app-links:first-of-type {
+  padding-right: 25px;
+}
+.our-app-links:last-of-type {
+  padding-left: 25px;
+}
+.download-our-app-header-title {
+  font-weight: bold;
+  line-height: 1.208;
+  font-size: 48px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+}
+
+.download-our-app-header-description {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(123, 124, 126);
+}
+
+@media (min-width: 2000px) {
+  .download-our-app-main-content {
+    padding-top: 160px;
+    width: 1200px;
+  }
+  .our-app-links:first-of-type {
+    padding-right: 50px;
+  }
+  .our-app-links:last-of-type {
+    padding-left: 50px;
+  }
+  .download-our-app-imj {
+    width: 1400px;
+  }
+  .download-our-app-links img {
+    width: 400px;
+    height: 120px;
+  }
+  .download-our-app-header-title {
+    font-size: 64px;
+  }
+
+  .download-our-app-header-description {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1423px) {
+  .download-our-app {
+    justify-content: center;
+    align-items: center;
+  }
+  .download-our-app-imj {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonila-picture {
+    width: 400px;
+  }
+  .download-our-app {
+    flex-direction: column;
+    align-items: center;
+  }
+  .download-our-app-imj {
+    order: 1;
+  }
+  .download-our-app-main-content {
+    order: 2;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .download-our-app-imj,
+  .download-our-app-header-title,
+  .download-our-app-header,
+  .download-our-app-main-content {
+    font-size: 32px;
+    width: 300px;
+  }
+  .download-our-app-header-description {
+    font-size: 16px;
+    width: 300px;
+  }
+  .download-our-app-links{
+    display: flex;
+    flex-direction: column;
+  }
+}

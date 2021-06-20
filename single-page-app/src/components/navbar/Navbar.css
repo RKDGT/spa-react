@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+}
+
+@media (min-width: 2000px) {
+  .nav-items a {
+    font-size: 36px;
+    padding: 10px;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1423px) {
+  .navbar {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .navbar {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 300px;
+  }
+}
+
+

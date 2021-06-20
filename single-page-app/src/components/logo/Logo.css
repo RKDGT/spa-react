@@ -1,0 +1,13 @@
+.logo {
+  font-size: 36px;
+}
+.logo::before {
+  content: "App";
+  color: darkorange;
+}
+
+@media (min-width: 2000px) {
+  .logo {
+    font-size: 72px;
+  }
+}
